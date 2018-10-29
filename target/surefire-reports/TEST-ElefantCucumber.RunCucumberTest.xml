@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="ElefantCucumber.RunCucumberTest" time="9.382" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Project_Junior\CucumberProject\ElefantCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Project_Junior\CucumberProject\ElefantCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\veremia\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\veremia\scoop\apps\maven\current\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\veremia\scoop\apps\oraclejdk8\current\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\veremia\scoop\apps\oraclejdk8\current\bin;C:\Users\veremia\scoop\apps\maven\current\bin;C:\Users\veremia\scoop\shims;C:\Users\veremia\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\Users\veremia\scoop\apps\maven\current\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\veremia\scoop\apps\maven\current\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\veremia"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="veremia"/>
+    <property name="java.class.path" value="C:\Users\veremia\scoop\apps\maven\current\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Users\veremia\scoop\apps\oraclejdk8\current\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\resources.jar;C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\rt.jar;C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\sunrsasign.jar;C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\jsse.jar;C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\jce.jar;C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\charsets.jar;C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\lib\jfr.jar;C:\Users\veremia\scoop\apps\oraclejdk8\current\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\veremia\scoop\apps\maven\current\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="authentication" name="Complete the loghin fields" time="9.382">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Utils.BaseTest.getValue(BaseTest.java:46)
+	at ElefantCucumber.Stepdefs.i_fill_loghin_fields_on_the_form_and_submit(Stepdefs.java:59)
+	at ✽.I fill loghin fields on the form and submit(ElefantCucumber/login.feature:7)
+</error>
+    <system-out>Feature: authentication
+
+  Scenario: Complete the loghin fields              &amp;#27;[90m# ElefantCucumber/login.feature:3&amp;#27;[0m
+Firefox driver loaded
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mMozzila Firefox is open&amp;#27;[0m                   &amp;#27;[90m# Stepdefs.mozzila_Firefox_is_open()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI open elefant.ro website&amp;#27;[0m                  &amp;#27;[90m# Stepdefs.i_open_elefant_ro_website()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mnavigate to loghin fields&amp;#27;[0m                   &amp;#27;[90m# Stepdefs.navigate_to_loghin_fields()&amp;#27;[0m
+    &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mI fill loghin fields on the form and submit&amp;#27;[0m &amp;#27;[90m# Stepdefs.i_fill_loghin_fields_on_the_form_and_submit()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at Utils.BaseTest.getValue(BaseTest.java:46)
+	at ElefantCucumber.Stepdefs.i_fill_loghin_fields_on_the_form_and_submit(Stepdefs.java:59)
+	at ?.I fill loghin fields on the form and submit(ElefantCucumber/login.feature:7)
+&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI should see successfully submitted&amp;#27;[0m        &amp;#27;[90m# Stepdefs.i_should_see_successfully_submitted()&amp;#27;[0m
+</system-out>
+    <system-err>1538659190945	geckodriver	INFO	geckodriver 0.20.1
+1538659190960	geckodriver	INFO	Listening on 127.0.0.1:35177
+1538659191611	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\veremia\\AppData\\Local\\Temp\\rust_mozprofile.bL0l03MrgLFE&quot;
+1538659191815	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+Unable to read VR Path Registry from C:\Users\veremia\AppData\Local\openvr\openvrpaths.vrpath
+1538659192196	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\veremia\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\veremia\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 11800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11476] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11476] WARNING: pipUnable to read VR Path Registry from C:\Users\veremia\AppData\Local\openvr\openvrpaths.vrpath
+1538659193496	Marionette	INFO	Listening on port 56265
+1538659193534	Marionette	INFO	Listening on port 56265
+1538659193681	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538659193763	Marionette	DEBUG	loaded listener.js
+Oct 04, 2018 4:19:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1538659193846	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1538659193972	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1538659193973	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1538659194523	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659195039	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659195353	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659195355	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659195356	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://staticxx.facebook.com/connect/xd_arbiter/r/30jx6e8KIxc.js?version=42#channel=f2c8530570a33f8&amp;origin=http%3A%2F%2Fwww.elefant.ro&quot;
+1538659195360	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://staticxx.facebook.com/connect/xd_arbiter/r/30jx6e8KIxc.js?version=42#channel=f2c8530570a33f8&amp;origin=http%3A%2F%2Fwww.elefant.ro&quot;
+1538659195499	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://vars.hotjar.com/rcj-da10bd4908deb9e19dfde013ec3fe4ff.html&quot;
+1538659195502	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://vars.hotjar.com/rcj-da10bd4908deb9e19dfde013ec3fe4ff.html&quot;
+1538659195790	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659195795	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659195985	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659195991	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659196621	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659196627	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659196631	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659196633	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659196636	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659196638	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659196713	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://platform.twitter.com/widgets/widget_iframe.80bd64d844f96cc4f6611a0bf277d8c0.html?origin=http%3A%2F%2Fwww.elefant.ro&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings&quot;
+1538659197008	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://platform.twitter.com/widgets/widget_iframe.80bd64d844f96cc4f6611a0bf277d8c0.html?origin=http%3A%2F%2Fwww.elefant.ro&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings&quot;
+1538659197111	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659197438	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659198089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1538659198228	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659198424	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659198428	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;http://www.elefant.ro/homepage&quot;
+1538659198874	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967301&quot;
+1538659198874	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967304&quot;
+1538659198875	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967307&quot;
+1538659198875	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967309&quot;
+1538659198875	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967311&quot;
+1538659198875	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967313&quot;
+1538659198876	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967315&quot;
+1538659198877	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;4294967317&quot;
+1538659198954	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199305	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199306	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199306	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199420	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199421	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199486	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://staticxx.facebook.com/connect/xd_arbiter/r/30jx6e8KIxc.js?version=42#channel=f39de4146a3b822&amp;origin=http%3A%2F%2Fwww.elefant.ro&quot;
+1538659199487	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://staticxx.facebook.com/connect/xd_arbiter/r/30jx6e8KIxc.js?version=42#channel=f39de4146a3b822&amp;origin=http%3A%2F%2Fwww.elefant.ro&quot;
+1538659199498	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://vars.hotjar.com/rcj-da10bd4908deb9e19dfde013ec3fe4ff.html&quot;
+1538659199499	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://vars.hotjar.com/rcj-da10bd4908deb9e19dfde013ec3fe4ff.html&quot;
+1538659199641	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199642	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+1538659199654	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://platform.twitter.com/widgets/widget_iframe.80bd64d844f96cc4f6611a0bf277d8c0.html?origin=http%3A%2F%2Fwww.elefant.ro&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings&quot;
+1538659199657	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://platform.twitter.com/widgets/widget_iframe.80bd64d844f96cc4f6611a0bf277d8c0.html?origin=http%3A%2F%2Fwww.elefant.ro&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings&quot;
+1538659199756	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://www.elefant.ro/autentificare&quot;
+</system-err>
+  </testcase>
+</testsuite>
