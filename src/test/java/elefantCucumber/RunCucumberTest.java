@@ -11,8 +11,9 @@ import org.junit.runner.RunWith;
 //        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\loginWrongErrorsCheck.feature",
 
 //        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\loginUserSteps.feature" ,
-        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\verifyMyCart.feature" ,
-
+//        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\verifyMyCart.feature" ,
+//path relative
+        features = {"classpath:features"},
         plugin = {"html:target/html","pretty", "json:target/cucumber-reports/cucumber.json"}
 
 

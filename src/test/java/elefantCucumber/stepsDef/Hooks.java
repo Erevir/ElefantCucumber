@@ -32,8 +32,6 @@ public class Hooks {
         //Call the file using
         //TODO: change so it is not full path
 
-//        InputStream file = DriverLoader.class.getClassLoader().getResourceAsStream("resources/properties/browser.properties");
-//        property.load(file);
         String filename = "properties/browser.properties";
         file =  new FileInputStream(filename);//getClass().getClassLoader().get(filename);
 
