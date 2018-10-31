@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
 //        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\loginUserSteps.feature" ,
         features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\verifyMyCart.feature" ,
 
-        plugin = {"html:target/html"}
+        plugin = {"html:target/html","pretty", "json:target/cucumber-reports/cucumber.json"}
+
 
 
 //        dryRun=true

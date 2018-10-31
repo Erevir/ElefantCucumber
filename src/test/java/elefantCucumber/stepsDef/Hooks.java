@@ -1,9 +1,9 @@
 package elefantCucumber.stepsDef;
 
-import elefantCucumber.utilsElefant.WebDriverSingleton;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import elefantCucumber.utilsElefant.WebDriverSingleton;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriverException;
@@ -31,7 +31,12 @@ public class Hooks {
         property = new Properties();
         //Call the file using
         //TODO: change so it is not full path
-        file = new FileInputStream("C:\\Project_Junior\\CucumberProject\\elefantCucumber\\src\\test\\resources\\properties\\browser.properties");
+
+//        InputStream file = DriverLoader.class.getClassLoader().getResourceAsStream("resources/properties/browser.properties");
+//        property.load(file);
+        String filename = "properties/browser.properties";
+        file =  new FileInputStream(filename);//getClass().getClassLoader().get(filename);
+
         //Load the file
         try {
             property.load(file);
@@ -60,7 +65,6 @@ public class Hooks {
             }
         }
     }
-
 
     @After
     public void tearDown() {

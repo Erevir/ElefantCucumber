@@ -14,8 +14,8 @@ public class DriverLoader {
     WebDriver driver;
 
     public WebDriver loadDriver() throws IOException {
-        System.setProperty("webdriver.gecko.driver", "C:\\Project_Junior\\CucumberProject\\elefantCucumber\\src\\test\\resources\\webdriver\\geckodriver.exe");
-        System.setProperty("webdriver.chrome.driver", "C:C:\\Project_Junior\\CucumberProject\\elefantCucumber\\src\\test\\resources\\webdriver\\chromedriver.exe");
+        System.setProperty("webdriver.gecko.driver", "src/test/resources/webdriver/geckodriver.exe");
+       // System.setProperty("webdriver.chrome.driver", "src/test/resources/webdriver/chromedriver.exe");
         String browser = getBrowserType();
         if (browser.equals("firefox")) {
             driver = new FirefoxDriver();
@@ -42,10 +42,20 @@ public class DriverLoader {
     }
 
     private String getBrowserFromFile() throws IOException {
+
         Properties prop = new Properties();
-        InputStream propFile = new FileInputStream("C:\\Project_Junior\\CucumberProject\\elefantCucumber\\src\\test\\resources\\properties\\browser.properties");
+
+        String filename = "properties/browser.properties";
+        InputStream propFile =  new FileInputStream(filename);//getClass().getClassLoader().get(filename);
+        if (propFile == null) System.out.println("Sorry, unable to find " + filename);
+
         prop.load(propFile);
+//        Properties prop = new Properties();
+//        InputStream propFile = new FileInputStream("src/test/java/resources/properties/browser.properties");
+//        prop.load(propFile);
+
         return prop.getProperty("browser");
+
     }
 
 }
