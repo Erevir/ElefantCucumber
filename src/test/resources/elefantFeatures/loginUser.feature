@@ -1,4 +1,4 @@
-
+@Login
 Feature: loginUser
 
 

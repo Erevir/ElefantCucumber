@@ -8,14 +8,14 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
 
-//        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\loginWrongErrorsCheck.feature",
+//        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantFeatures\\loginWrongErrorsCheck.feature",
 
-//        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\loginUserSteps.feature" ,
-//        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantCucumber\\verifyMyCart.feature" ,
+//        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantFeatures\\loginUserSteps.feature" ,
+//        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantFeatures\\verifyMyCart.feature" ,
 //path relative
-        features = {"classpath:features"},
+        features = {"src / test / resources / elefantFeature"},
+        tags = {"@Login", "@User"},
         plugin = {"html:target/html","pretty", "json:target/cucumber-reports/cucumber.json"}
-
 
 
 //        dryRun=true

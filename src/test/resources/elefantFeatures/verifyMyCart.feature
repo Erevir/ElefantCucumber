@@ -1,3 +1,5 @@
+@User
+@UserCartCheck
 Feature: verifyMyCart
 
 Scenario:  Verify my cart

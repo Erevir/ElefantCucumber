@@ -1,5 +1,9 @@
+
+@Login
+@LoginCheck
 Feature: loginUserWithParam
 
+  @SmokeTest
   Scenario Outline: UserWithParam
     When I open elefant.ro website
     And navigate to login fields

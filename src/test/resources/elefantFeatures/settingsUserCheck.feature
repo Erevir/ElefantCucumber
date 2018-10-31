@@ -1,3 +1,5 @@
+@User
+@UserCheck
 Feature: SettingsUserCheck
 
   Scenario Outline: SettingsUserCheck
