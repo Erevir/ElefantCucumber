@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
 //        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantFeatures\\loginUserSteps.feature" ,
 //        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantFeatures\\verifyMyCart.feature" ,
 //path relative
-        features = {"src / test / resources / elefantFeature"},
-        tags = {"@Login", "@User"},
+        features = {"src/test/resources/elefantFeatures/elefantFeature.feature"},
+//        tags = {"@Login", "@User"},
         plugin = {"html:target/html","pretty", "json:target/cucumber-reports/cucumber.json"}
 
 
