@@ -2,7 +2,7 @@
 @Login
 @SmokeTest
 
-Feature: loginUserWithParam
+Feature: loginUserSteps
 
   Scenario Outline: UserWithParam
     When I open elefant.ro website

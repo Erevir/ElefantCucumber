@@ -33,6 +33,7 @@ public class LoginSteps {
     @Then("^I should be successfully authenticated$")
     //todo: modify so that it checks username span is not empty
     public void iShouldBeSuccessfullyAuthenticated() throws Throwable {
+        Thread.sleep(5000);
 
         factory.getLoginPage().checkUserNameIsNotEmpty();}
 

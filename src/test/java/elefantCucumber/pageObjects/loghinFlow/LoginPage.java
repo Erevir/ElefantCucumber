@@ -76,6 +76,7 @@ public class LoginPage extends AbstractPage {
     @FindBy(how = How.XPATH, using = "//div[@class='col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 errors']")
     private WebElement unsucces_message;
 
+    String expectName;
 
     public void navigateTo() {
 //        String loginPageURL = "http://www.elefant.ro/autentificare";
@@ -101,9 +102,11 @@ public class LoginPage extends AbstractPage {
 
 
     public String getAccontName() {
+
         functions.clickWebElement(my_acoount_button);
         functions.clickWebElement(my_account_settings);
-        return accont_name.getAttribute("value");
+        expectName=accont_name.getAttribute("value");
+        return expectName;
     }
 
     public void logout() {
@@ -116,8 +119,9 @@ public class LoginPage extends AbstractPage {
     //  check confirmation submit  checks username span is not empty///  assertion in test Page!!!
     public void checkUserNameIsNotEmpty() {
         //TODO: change so that it check if empty but not null, empty could also mean a few spaces
-//        assertThat(first_name_text.getText(), isEmptyString());
-        assertThat(first_name_text.getText(), not(isEmptyString()));
+
+        //        assertThat(first_name_text.getText(), isEmptyString());
+        assertThat(expectName, not(isEmptyString()));
     }
 
     //  check error message
