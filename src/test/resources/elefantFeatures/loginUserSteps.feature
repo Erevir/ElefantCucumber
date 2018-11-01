@@ -1,9 +1,9 @@
 
 @Login
-@LoginCheck
+@SmokeTest
+
 Feature: loginUserWithParam
 
-  @SmokeTest
   Scenario Outline: UserWithParam
     When I open elefant.ro website
     And navigate to login fields
@@ -14,5 +14,5 @@ Feature: loginUserWithParam
 
     Examples:
       | username             | pwd             |
-#      | greek#5421@yahoo.com | Steelseries_85# |
+      | greek#5421@yahoo.com | Steelseries_85# |
 #      | user#53@yahoo.co1m    | core#53         |

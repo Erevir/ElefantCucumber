@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.isEmptyString;
+import static org.hamcrest.core.IsNot.not;
 
 public class LoginPage extends AbstractPage {
 
@@ -115,8 +116,8 @@ public class LoginPage extends AbstractPage {
     //  check confirmation submit  checks username span is not empty///  assertion in test Page!!!
     public void checkUserNameIsNotEmpty() {
         //TODO: change so that it check if empty but not null, empty could also mean a few spaces
-        assertThat(first_name_text.getText(), isEmptyString());
-//        assertThat(first_name_text.getText(), not(isEmptyString()));
+//        assertThat(first_name_text.getText(), isEmptyString());
+        assertThat(first_name_text.getText(), not(isEmptyString()));
     }
 
     //  check error message

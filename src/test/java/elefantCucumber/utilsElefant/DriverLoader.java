@@ -15,7 +15,7 @@ public class DriverLoader {
 
     public WebDriver loadDriver() throws IOException {
         System.setProperty("webdriver.gecko.driver", "src/test/resources/webdriver/geckodriver.exe");
-       // System.setProperty("webdriver.chrome.driver", "src/test/resources/webdriver/chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdriver/chromedriver.exe");
         String browser = getBrowserType();
         if (browser.equals("firefox")) {
             driver = new FirefoxDriver();

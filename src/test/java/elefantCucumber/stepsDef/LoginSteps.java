@@ -37,7 +37,6 @@ public class LoginSteps {
         factory.getLoginPage().checkUserNameIsNotEmpty();}
 
 
-
     @And("^I logout from account$")
     public void iLogoutFromAccount() throws Throwable {
        factory.getLoginPage().logout();
