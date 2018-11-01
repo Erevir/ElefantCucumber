@@ -1,6 +1,6 @@
 
 @Login
-@SmokeTest
+
 
 Feature: loginUserSteps
 

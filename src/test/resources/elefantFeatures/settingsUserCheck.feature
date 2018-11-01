@@ -1,5 +1,5 @@
 @User
-@UserCheck
+@SmokeTest
 Feature: SettingsUserCheck
 
   Scenario Outline: SettingsUserCheck
