@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
 
         features = {"src/test/resources/elefantFeatures" },
         tags = {"@SmokeTest"},
-        plugin = {"html:target/html","pretty", "json:target/cucumber-reports/cucumber.json"},
-        glue = {"src/test/java/elefantCucumber/stepsDef"}
+        plugin = {"html:target/html","pretty", "json:target/cucumber-reports/cucumber.json"}
+//        glue = {"src/test/java/elefantCucumber/stepsDef"}
 
 
 //        dryRun=true
