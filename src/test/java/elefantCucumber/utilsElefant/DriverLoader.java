@@ -3,6 +3,7 @@ package elefantCucumber.utilsElefant;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -16,6 +17,8 @@ public class DriverLoader {
     public WebDriver loadDriver() throws IOException {
         System.setProperty("webdriver.gecko.driver", "src/test/resources/webdriver/geckodriver.exe");
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdriver/chromedriver.exe");
+        System.setProperty("webdriver.phantomjs.driver", "src/test/resources/webdriver/phantomjs.exe");
+
         String browser = getBrowserType();
         if (browser.equals("firefox")) {
             driver = new FirefoxDriver();
@@ -27,6 +30,12 @@ public class DriverLoader {
             System.out.println("Chrome driver loaded");
             return driver;
         }
+        if (browser.equals("phantomjs")) {
+            driver = new PhantomJSDriver();
+            System.out.println("PhantomJS driver loaded");
+            return driver;
+        }
+
 
         driver = new FirefoxDriver();
         System.out.println("Firefox driver loaded as default");

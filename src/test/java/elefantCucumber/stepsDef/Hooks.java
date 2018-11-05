@@ -54,14 +54,14 @@ public class Hooks {
     @After
     public void afterTest(Scenario scenario) {
 
-        if (scenario.isFailed()) {
+//        if (scenario.isFailed()) {
             try {
                 byte[] screenshot = ((TakesScreenshot) wbs.getDriver()).getScreenshotAs(OutputType.BYTES);
                 scenario.embed(screenshot, "image/png");
             } catch (WebDriverException e) {
                 System.err.println(e.getMessage());
             }
-        }
+//        }
     }
 
     @After
