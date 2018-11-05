@@ -25,6 +25,9 @@ public class Hooks {
 
     @Before
     //TODO: rename to a more meaningufll name
+
+
+
     public void loadFileProperty(Scenario scenario) throws IOException {
         wbs.initDriver();
         //using properties Class to create an object

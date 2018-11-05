@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,12 +15,15 @@ public class DriverLoader {
 
     WebDriver driver;
 
-    public WebDriver loadDriver() throws IOException {
-//        System.setProperty("webdriver.gecko.driver", "src/test/resources/webdriver/geckodriver.exe");
-//        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdriver/chromedriver.exe");
-//        System.setProperty("webdriver.phantomjs.driver", "src/test/resources/webdriver/phantomjs.exe");
+//    @Parameterized.Parameters("browser")
 
-        String browser = getBrowserType();
+    public WebDriver loadDriver() throws IOException {
+        System.setProperty("webdriver.gecko.driver", "src/test/resources/webdriver/geckodriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdriver/chromedriver.exe");
+        System.setProperty("phantomjs.binary.path", "src/test/resources/webdriver/phantomjs.exe");
+
+        String browser = getBrowserName();
+
         if (browser.equals("firefox")) {
             driver = new FirefoxDriver();
             System.out.println("Firefox driver loaded");
@@ -31,24 +35,38 @@ public class DriverLoader {
             return driver;
         }
         if (browser.equals("phantomjs")) {
+            DesiredCapabilities caps = new DesiredCapabilities();
+            caps.setJavascriptEnabled(true);
             driver = new PhantomJSDriver();
             System.out.println("PhantomJS driver loaded");
             return driver;
         }
-
 
         driver = new FirefoxDriver();
         System.out.println("Firefox driver loaded as default");
         return driver;
     }
 
-    public String getBrowserType() throws IOException {
-        String systemBrowserProperty = System.getProperty("browser");
+    public String getBrowserName() throws IOException {
+        String systemBrowserProperty = getParameter("browser");
+
         if (null != systemBrowserProperty)
             return systemBrowserProperty;
         else
             return getBrowserFromFile();
     }
+
+    private String getParameter(String name) {
+        String value = System.getProperty(name);
+        if (value == null)
+            throw new RuntimeException(name + " is not a parameter!");
+
+        if (value.isEmpty())
+            throw new RuntimeException(name + " is empty!");
+
+        return value;
+    }
+
 
     private String getBrowserFromFile() throws IOException {
 

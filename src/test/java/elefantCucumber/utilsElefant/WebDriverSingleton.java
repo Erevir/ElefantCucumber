@@ -20,11 +20,12 @@ public class WebDriverSingleton {
 
     public void initDriver() throws IOException {
         DriverLoader driverLoader = new DriverLoader();
-        driverLoader.getBrowserType();
+        driverLoader.getBrowserName();
         driver = driverLoader.loadDriver();
     }
 
-    public WebDriver getDriver()  {
+
+        public WebDriver getDriver()  {
 
         return driver;
     }
