@@ -5,11 +5,14 @@ import cucumber.api.java.en.Then;
 import elefantCucumber.entity.Password;
 import elefantCucumber.entity.UserName;
 import elefantCucumber.pageObjects.PageFactory;
+import elefantCucumber.utilsElefant.ProjectMethods;
 
-public class LoginSteps {
+public class LoginSteps extends BaseSteps {
 
     public UserName userName;
     public Password pwd;
+
+    ProjectMethods projectMethods;
 
     PageFactory factory = new PageFactory();
 
@@ -35,7 +38,12 @@ public class LoginSteps {
     public void iShouldBeSuccessfullyAuthenticated() throws Throwable {
         Thread.sleep(5000);
 
-        factory.getLoginPage().checkUserNameIsNotEmpty();}
+        factory.getLoginPage().checkUserNameIsNotEmpty();
+
+//        projectMethods.getScreenshot();
+       super.getScreenshot();
+    }
+//
 
 
     @And("^I logout from account$")

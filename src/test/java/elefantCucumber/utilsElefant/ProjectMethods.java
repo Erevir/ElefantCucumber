@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProjectMethods {
 
- WebDriverSingleton wbs = new WebDriverSingleton();
+    WebDriverSingleton wbs = new WebDriverSingleton();
 
     //  *******  Constructor  ***********
     public ProjectMethods() {
@@ -24,7 +24,7 @@ public class ProjectMethods {
     }
 
     //    validate page
-    public void validatePage(String expected,  WebDriverSingleton wbs) {
+    public void validatePage(String expected, WebDriverSingleton wbs) {
         if (!(expected.isEmpty())) {
             String actual = wbs.getDriver().getTitle();
             Assert.assertEquals(expected, actual);
@@ -36,7 +36,7 @@ public class ProjectMethods {
         element.sendKeys(value);
     }
 
-     //    DropDown
+    //    DropDown
     //    Select by text
     public void selectByText(WebElement element, String text) {
         Select dropDown = new Select(element);
@@ -67,7 +67,7 @@ public class ProjectMethods {
             text = alert.getText();
             alert.accept();
         } catch (NoAlertPresentException e) {
-                   }
+        }
 //        catch (WebDriverException e) {
 //
 //        }
@@ -92,18 +92,19 @@ public class ProjectMethods {
     }
 
 
-
     public String getTextJs(WebElement element) {
         JavascriptExecutor executor = (JavascriptExecutor) wbs.getDriver();
-        String content=(String)executor.executeScript("return arguments[0].textContent;", element);  // textContent, innerHTML
+        String content = (String) executor.executeScript("return arguments[0].textContent;", element);  // textContent, innerHTML
         return content.trim();
     }
 
 
+    public WebElement getErrorWebelementXpath(String value) {
+        WebElement error = wbs.getDriver().findElement(By.xpath("//div[2]/div/div[contains(@id,'" + value + "-error')]"));
+        return error;
+    }
 
-    public WebElement getErrorWebelementXpath(String value){
-        WebElement error  = wbs.getDriver().findElement(By.xpath("//div[2]/div/div[contains(@id,'"+value+"-error')]"));
-        return error;}
-
+    //
 
 }
+

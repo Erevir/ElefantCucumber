@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
 //        features = "C:\\Project_Junior\\CucumberProject\\ElefantCucumber\\src\\test\\resources\\elefantFeatures\\verifyMyCart.feature" ,
 //path relative
         features = {"src/test/resources/elefantFeatures" },
-//        tags = {"@Login or @SmokeTest"},
-        plugin = {"html:target/html","pretty", "json:target/cucumber-reports/cucumber.json"}
+        tags = {"@User and @SmokeTest"},
+        plugin = {"html:target/html","pretty", "json:targemvn test -Dbrowser=chromet/cucumber-reports/cucumber.json"}
 //        glue = {"classpath:stepsDef"}
 
 

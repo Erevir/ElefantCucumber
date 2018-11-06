@@ -4,9 +4,6 @@ import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import elefantCucumber.utilsElefant.WebDriverSingleton;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriverException;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -25,8 +22,6 @@ public class Hooks {
 
     @Before
     //TODO: rename to a more meaningufll name
-
-
 
     public void loadFileProperty(Scenario scenario) throws IOException {
         wbs.initDriver();
@@ -54,18 +49,18 @@ public class Hooks {
     }
 
 
-    @After
-    public void afterTest(Scenario scenario) {
-
-//        if (scenario.isFailed()) {
-            try {
-                byte[] screenshot = ((TakesScreenshot) wbs.getDriver()).getScreenshotAs(OutputType.BYTES);
-                scenario.embed(screenshot, "image/png");
-            } catch (WebDriverException e) {
-                System.err.println(e.getMessage());
-            }
+//    @After
+//    public void afterTest(Scenario scenario) {
+//
+////        if (scenario.isFailed()) {
+//            try {
+//                byte[] screenshot = ((TakesScreenshot) wbs.getDriver()).getScreenshotAs(OutputType.BYTES);
+//                scenario.embed(screenshot, "image/png");
+//            } catch (WebDriverException e) {
+//                System.err.println(e.getMessage());
+//            }
 //        }
-    }
+//    }
 
     @After
     public void tearDown() {

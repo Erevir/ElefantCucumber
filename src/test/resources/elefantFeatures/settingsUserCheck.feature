@@ -10,6 +10,7 @@ Feature: SettingsUserCheck
     And I submit
     And I navigate to settings page
     Then I should be check user
+    Then I take a screenshot
 
     Examples:
       | username             | pwd             |

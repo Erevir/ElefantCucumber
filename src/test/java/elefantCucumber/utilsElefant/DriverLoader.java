@@ -42,14 +42,14 @@ public class DriverLoader {
             return driver;
         }
 
-        driver = new FirefoxDriver();
-        System.out.println("Firefox driver loaded as default");
+        driver = new ChromeDriver();
+        System.out.println("Chrome driver loaded as default");
         return driver;
     }
 
     public String getBrowserName() throws IOException {
-        String systemBrowserProperty = getParameter("browser");
 
+        String systemBrowserProperty = getParameter("browser");
         if (null != systemBrowserProperty)
             return systemBrowserProperty;
         else

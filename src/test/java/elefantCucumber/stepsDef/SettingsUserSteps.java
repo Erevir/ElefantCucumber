@@ -10,7 +10,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.isEmptyString;
 import static org.hamcrest.Matchers.not;
 
-public class SettingsUserSteps {
+public class SettingsUserSteps extends BaseSteps {
 
     public UserName userName;
 
@@ -33,6 +33,9 @@ public class SettingsUserSteps {
 
 //        assertThat(factory.getSettingsPage().getAccontName(), isEmptyString());
                 assertThat(factory.getSettingsPage().getAccontName(), not(isEmptyString()));
+
+                super.getScreenshot();
+
     }
 
 
