@@ -7,6 +7,7 @@ Feature: SettingsUserCheck
 
     When navigate to login fields
     And I enter username as "<username>" and "<pwd>"
+    And I take a screenshot
     And I submit
     And I navigate to settings page
     Then I should be check user
