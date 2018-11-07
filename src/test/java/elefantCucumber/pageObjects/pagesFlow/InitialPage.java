@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class InitialPage {
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
     public InitialPage() {
         PageFactory.initElements(wbs.getDriver(), this);
 

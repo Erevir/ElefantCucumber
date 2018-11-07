@@ -8,16 +8,15 @@ import java.io.IOException;
 public class TestContext {
 
     private static WebDriver driver;
-
     private Scenario scenario;
 
-    private static TestContext instanceOfWebDriverSingleton = null;
+    private static TestContext testContext = null;
 
-    public static TestContext getInstanceOfWeDriverSingleton() {
-        if (instanceOfWebDriverSingleton == null) {
-            instanceOfWebDriverSingleton = new TestContext();
+    public static TestContext getTestContext() {
+        if (testContext == null) {
+            testContext = new TestContext();
         }
-        return instanceOfWebDriverSingleton;
+        return testContext;
     }
 
 
@@ -28,7 +27,6 @@ public class TestContext {
     }
 
         public WebDriver getDriver()  {
-
         return driver;
     }
 

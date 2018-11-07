@@ -11,7 +11,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class RegistrationPage {
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
 
     public RegistrationPage() {
         PageFactory.initElements(wbs.getDriver(), this);

@@ -8,7 +8,7 @@ import org.junit.Assert;
 
 public class LoginOneSteps {
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
     PageFactory factory = new PageFactory();
 
     public LoginOneSteps() throws Throwable {

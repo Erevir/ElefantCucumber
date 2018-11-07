@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.isEmptyString;
 
 public class SettingsPage {
 
-    TestContext wbs =  TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs =  TestContext.getTestContext();
     public ProjectMethods functions = new ProjectMethods();
     UserName userName;
 

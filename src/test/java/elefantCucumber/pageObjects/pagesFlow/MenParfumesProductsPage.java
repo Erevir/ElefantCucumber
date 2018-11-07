@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MenParfumesProductsPage {
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
     public ProjectMethods functions = new ProjectMethods();
 
     public MenParfumesProductsPage() {

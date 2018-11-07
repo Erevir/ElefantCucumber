@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractPage {
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
 
     public AbstractPage(TestContext wbs) {
         this.wbs = wbs;

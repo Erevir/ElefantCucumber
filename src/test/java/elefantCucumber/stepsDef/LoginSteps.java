@@ -12,7 +12,7 @@ public class LoginSteps  {
     public UserName userName;
     public Password pwd;
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
 
     PageFactory factory = new PageFactory();
 

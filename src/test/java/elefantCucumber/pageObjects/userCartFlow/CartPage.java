@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.*;
 
 public class CartPage {
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
     public ProjectMethods functions = new ProjectMethods();
 
 

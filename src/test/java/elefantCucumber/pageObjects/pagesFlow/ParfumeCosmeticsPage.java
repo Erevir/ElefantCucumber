@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ParfumeCosmeticsPage {
 
-    TestContext wbs =  TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs =  TestContext.getTestContext();
 
     public ParfumeCosmeticsPage() {
 

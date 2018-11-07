@@ -8,7 +8,7 @@ public class HomePage extends AbstractPage {
 
     private String homePageURL="https://www.elefant.ro/homepage";// get from properties file!!!
 
-    TestContext wbs =  TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs =  TestContext.getTestContext();
     public ProjectMethods functions = new ProjectMethods();
 
     public HomePage(TestContext wbs){

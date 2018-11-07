@@ -6,7 +6,7 @@ import elefantCucumber.utilsElefant.TestContext;
 
 public class ScreenshotStep {
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
     ProjectMethods functions=new ProjectMethods();
 
 

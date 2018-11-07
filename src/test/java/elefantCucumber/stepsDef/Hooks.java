@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class Hooks {
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
     private static Properties property;
     private FileInputStream file;
 

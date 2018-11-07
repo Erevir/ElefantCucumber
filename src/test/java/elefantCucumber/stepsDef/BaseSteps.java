@@ -4,7 +4,7 @@ import elefantCucumber.utilsElefant.TestContext;
 
 public class BaseSteps {
 
-   TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+   TestContext wbs = TestContext.getTestContext();
 
     public BaseSteps() {
 

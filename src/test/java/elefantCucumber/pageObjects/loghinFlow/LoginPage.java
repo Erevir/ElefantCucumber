@@ -14,7 +14,7 @@ import static org.hamcrest.core.IsNot.not;
 
 public class LoginPage extends AbstractPage {
 
-    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getTestContext();
     public ProjectMethods functions = new ProjectMethods();
 
     String loginPageURL = "http://www.elefant.ro/autentificare";
