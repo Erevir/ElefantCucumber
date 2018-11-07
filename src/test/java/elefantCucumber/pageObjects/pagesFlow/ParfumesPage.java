@@ -1,13 +1,13 @@
 package elefantCucumber.pageObjects.pagesFlow;
 
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class ParfumesPage {
-    WebDriverSingleton wbs =  WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs =  TestContext.getInstanceOfWeDriverSingleton();
 
     public ParfumesPage() {
 

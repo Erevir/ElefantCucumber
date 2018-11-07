@@ -60,29 +60,20 @@ public class DriverLoader {
         String value = System.getProperty(name);
         if (value == null)
             throw new RuntimeException(name + " is not a parameter!");
-
         if (value.isEmpty())
             throw new RuntimeException(name + " is empty!");
-
         return value;
     }
 
 
     private String getBrowserFromFile() throws IOException {
-
         Properties prop = new Properties();
-
         String filename = "properties/browser.properties";
         InputStream propFile =  new FileInputStream(filename);//getClass().getClassLoader().get(filename);
         if (propFile == null) System.out.println("Sorry, unable to find " + filename);
 
         prop.load(propFile);
-//        Properties prop = new Properties();
-//        InputStream propFile = new FileInputStream("src/test/java/resources/properties/browser.properties");
-//        prop.load(propFile);
-
         return prop.getProperty("browser");
-
     }
 
 }

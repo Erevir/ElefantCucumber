@@ -3,7 +3,7 @@ package elefantCucumber.stepsDef;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import elefantCucumber.pageObjects.PageFactory;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import io.cucumber.datatable.DataTable;
 import java.util.Map;
 import static org.hamcrest.CoreMatchers.is;
@@ -12,7 +12,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CartPageSteps {
 
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
     PageFactory factory = new PageFactory();
 
 

@@ -2,7 +2,7 @@ package elefantCucumber.pageObjects.loghinFlow;
 
 import elefantCucumber.pageObjects.AbstractPage;
 import elefantCucumber.utilsElefant.ProjectMethods;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -14,12 +14,12 @@ import static org.hamcrest.core.IsNot.not;
 
 public class LoginPage extends AbstractPage {
 
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
     public ProjectMethods functions = new ProjectMethods();
 
     String loginPageURL = "http://www.elefant.ro/autentificare";
 
-    public LoginPage(WebDriverSingleton wbs) {
+    public LoginPage(TestContext wbs) {
         super(wbs);
     }
 

@@ -3,7 +3,7 @@ package elefantCucumber.stepsDef;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,24 +11,20 @@ import java.util.Properties;
 
 public class Hooks {
 
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
-
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
     private static Properties property;
     private FileInputStream file;
 
     public Hooks() throws Throwable {
     }
 
-
     @Before
-    //TODO: rename to a more meaningufll name
-
     public void loadFileProperty(Scenario scenario) throws IOException {
         wbs.initDriver();
+        wbs.setScenario(scenario);
         //using properties Class to create an object
         property = new Properties();
         //Call the file using
-        //TODO: change so it is not full path
 
         String filename = "properties/browser.properties";
         file =  new FileInputStream(filename);//getClass().getClassLoader().get(filename);
@@ -37,7 +33,6 @@ public class Hooks {
         try {
             property.load(file);
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             System.out.println(e.getMessage());
             e.printStackTrace();
         }
@@ -47,7 +42,6 @@ public class Hooks {
     public static String getValue(String key) {
         return property.getProperty(key);
     }
-
 
 //    @After
 //    public void afterTest(Scenario scenario) {

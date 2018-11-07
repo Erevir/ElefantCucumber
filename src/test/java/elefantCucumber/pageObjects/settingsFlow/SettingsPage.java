@@ -2,7 +2,7 @@ package elefantCucumber.pageObjects.settingsFlow;
 
 import elefantCucumber.entity.UserName;
 import elefantCucumber.utilsElefant.ProjectMethods;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.isEmptyString;
 
 public class SettingsPage {
 
-    WebDriverSingleton wbs =  WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs =  TestContext.getInstanceOfWeDriverSingleton();
     public ProjectMethods functions = new ProjectMethods();
     UserName userName;
 

@@ -3,7 +3,7 @@ package elefantCucumber.pageObjects.registrationFlow;
 //import Utils.ProjectMethods;
 
 import elefantCucumber.utilsElefant.ProjectMethods;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class RegistrationPage {
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
 
     public RegistrationPage() {
         PageFactory.initElements(wbs.getDriver(), this);

@@ -1,5 +1,7 @@
 package elefantCucumber.utilsElefant;
 
+import cucumber.api.Scenario;
+import org.apache.commons.codec.binary.Base64;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -9,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProjectMethods {
 
-    WebDriverSingleton wbs = new WebDriverSingleton();
+    TestContext wbs = new TestContext();
 
     //  *******  Constructor  ***********
     public ProjectMethods() {
@@ -24,7 +26,7 @@ public class ProjectMethods {
     }
 
     //    validate page
-    public void validatePage(String expected, WebDriverSingleton wbs) {
+    public void validatePage(String expected, TestContext wbs) {
         if (!(expected.isEmpty())) {
             String actual = wbs.getDriver().getTitle();
             Assert.assertEquals(expected, actual);
@@ -50,13 +52,13 @@ public class ProjectMethods {
     }
 
     //    Hover a WebElement
-    public void hoverWebElement(WebElement element, WebDriverSingleton wbs) {
+    public void hoverWebElement(WebElement element, TestContext wbs) {
         Actions action = new Actions(wbs.getDriver());
         action.moveToElement(element).build().perform();
     }
 
     //    Wait explicit
-    public void waitExplicit(WebElement element, WebDriverSingleton wbs) {
+    public void waitExplicit(WebElement element, TestContext wbs) {
         new WebDriverWait(wbs.getDriver(), 2).until(ExpectedConditions.visibilityOf(element));
     }
 
@@ -104,7 +106,19 @@ public class ProjectMethods {
         return error;
     }
 
-    //
+    public void getScreenshot(Scenario scenario) {
+        try {
+
+            String base64Screenshot = ((TakesScreenshot) wbs.getDriver()).getScreenshotAs(OutputType.BASE64);
+            byte[] decodeScreenshot = Base64.decodeBase64(base64Screenshot.getBytes());
+            scenario.write("Current Page URL is " + wbs.getDriver().getCurrentUrl());
+            scenario.embed(decodeScreenshot, "image/png");
+        } catch (ClassCastException cce) {
+            cce.printStackTrace();
+        }
+    }
+
+
 
 }
 

@@ -1,11 +1,11 @@
 package elefantCucumber.pageObjects.pagesFlow;
 
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.openqa.selenium.support.PageFactory;
 
 public class InitialPage {
 
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
     public InitialPage() {
         PageFactory.initElements(wbs.getDriver(), this);
 

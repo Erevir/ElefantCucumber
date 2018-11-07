@@ -1,14 +1,14 @@
 package elefantCucumber.pageObjects;
 
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 
 import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractPage {
 
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
 
-    public AbstractPage(WebDriverSingleton wbs) {
+    public AbstractPage(TestContext wbs) {
         this.wbs = wbs;
     }
 

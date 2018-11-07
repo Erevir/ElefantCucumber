@@ -1,7 +1,7 @@
 package elefantCucumber.pageObjects.userCartFlow;
 
 import elefantCucumber.utilsElefant.ProjectMethods;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.*;
 
 public class CartPage {
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
     public ProjectMethods functions = new ProjectMethods();
 
 

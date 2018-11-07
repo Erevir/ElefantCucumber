@@ -5,14 +5,14 @@ import cucumber.api.java.en.Then;
 import elefantCucumber.entity.Password;
 import elefantCucumber.entity.UserName;
 import elefantCucumber.pageObjects.PageFactory;
-import elefantCucumber.utilsElefant.ProjectMethods;
+import elefantCucumber.utilsElefant.TestContext;
 
-public class LoginSteps extends BaseSteps {
+public class LoginSteps  {
 
     public UserName userName;
     public Password pwd;
 
-    ProjectMethods projectMethods;
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
 
     PageFactory factory = new PageFactory();
 
@@ -37,14 +37,8 @@ public class LoginSteps extends BaseSteps {
     //todo: modify so that it checks username span is not empty
     public void iShouldBeSuccessfullyAuthenticated() throws Throwable {
         Thread.sleep(5000);
-
         factory.getLoginPage().checkUserNameIsNotEmpty();
-
-//        projectMethods.getScreenshot();
-       super.getScreenshot();
     }
-//
-
 
     @And("^I logout from account$")
     public void iLogoutFromAccount() throws Throwable {

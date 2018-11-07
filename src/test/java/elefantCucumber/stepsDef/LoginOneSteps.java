@@ -1,6 +1,6 @@
 package elefantCucumber.stepsDef;
 
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import elefantCucumber.pageObjects.PageFactory;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -8,7 +8,7 @@ import org.junit.Assert;
 
 public class LoginOneSteps {
 
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
     PageFactory factory = new PageFactory();
 
     public LoginOneSteps() throws Throwable {

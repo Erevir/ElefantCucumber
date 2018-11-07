@@ -2,7 +2,7 @@ package elefantCucumber.pageObjects.pagesFlow;
 
 
 import elefantCucumber.utilsElefant.ProjectMethods;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.junit.Assert;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MenParfumesProductsPage {
 
-    WebDriverSingleton wbs = WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs = TestContext.getInstanceOfWeDriverSingleton();
     public ProjectMethods functions = new ProjectMethods();
 
     public MenParfumesProductsPage() {

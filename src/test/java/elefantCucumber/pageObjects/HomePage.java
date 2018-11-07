@@ -1,17 +1,17 @@
 package elefantCucumber.pageObjects;
 
 import elefantCucumber.utilsElefant.ProjectMethods;
-import elefantCucumber.utilsElefant.WebDriverSingleton;
+import elefantCucumber.utilsElefant.TestContext;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends AbstractPage {
 
     private String homePageURL="https://www.elefant.ro/homepage";// get from properties file!!!
 
-    WebDriverSingleton wbs =  WebDriverSingleton.getInstanceOfWeDriverSingleton();
+    TestContext wbs =  TestContext.getInstanceOfWeDriverSingleton();
     public ProjectMethods functions = new ProjectMethods();
 
-    public HomePage(WebDriverSingleton wbs){
+    public HomePage(TestContext wbs){
         super(wbs);
     }
     public HomePage() {
