@@ -1,0 +1,1276 @@
+[INFO  - 2018-11-05T13:45:08.207Z] GhostDriver - Main - running on port 18061
+[INFO  - 2018-11-05T13:45:09.050Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:45:09.050Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:45:09.050Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:45:09.050Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 02a5d740-e101-11e8-999e-4dc6781cd95d
+[ERROR - 2018-11-05T13:45:11.066Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:45:11.067Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[ERROR - 2018-11-05T13:45:14.715Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.onError - msg: Rollbar: Error while reading your configuration's ignoredMessages option. Removing custom ignoredMessages.
+[ERROR - 2018-11-05T13:45:14.716Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.onError - stack:
+  apply (:0)
+[ERROR - 2018-11-05T13:45:18.836Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:45:18.836Z] Session [02a5d740-e101-11e8-999e-4dc6781cd95d] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:45:24.197Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:45:28.755Z] GhostDriver - Main - running on port 34789
+[INFO  - 2018-11-05T13:45:29.252Z] Session [0eb092f0-e101-11e8-a633-cd78bed9f67f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:45:29.253Z] Session [0eb092f0-e101-11e8-a633-cd78bed9f67f] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:45:29.253Z] Session [0eb092f0-e101-11e8-a633-cd78bed9f67f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:45:29.253Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0eb092f0-e101-11e8-a633-cd78bed9f67f
+[ERROR - 2018-11-05T13:45:30.748Z] Session [0eb092f0-e101-11e8-a633-cd78bed9f67f] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:45:30.749Z] Session [0eb092f0-e101-11e8-a633-cd78bed9f67f] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:45:37.005Z] GhostDriver - Main - running on port 38304
+[INFO  - 2018-11-05T13:45:37.614Z] Session [13ac5c80-e101-11e8-911e-b12fb4aa9054] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:45:37.614Z] Session [13ac5c80-e101-11e8-911e-b12fb4aa9054] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:45:37.614Z] Session [13ac5c80-e101-11e8-911e-b12fb4aa9054] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:45:37.615Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 13ac5c80-e101-11e8-911e-b12fb4aa9054
+[ERROR - 2018-11-05T13:45:39.068Z] Session [13ac5c80-e101-11e8-911e-b12fb4aa9054] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:45:39.068Z] Session [13ac5c80-e101-11e8-911e-b12fb4aa9054] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:45:47.973Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:45:52.545Z] GhostDriver - Main - running on port 45327
+[INFO  - 2018-11-05T13:45:53.014Z] Session [1cda5e10-e101-11e8-b652-cdd2ba18e7f3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:45:53.014Z] Session [1cda5e10-e101-11e8-b652-cdd2ba18e7f3] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:45:53.015Z] Session [1cda5e10-e101-11e8-b652-cdd2ba18e7f3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:45:53.015Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1cda5e10-e101-11e8-b652-cdd2ba18e7f3
+[ERROR - 2018-11-05T13:45:54.361Z] Session [1cda5e10-e101-11e8-b652-cdd2ba18e7f3] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:45:54.362Z] Session [1cda5e10-e101-11e8-b652-cdd2ba18e7f3] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:46:02.875Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:46:07.618Z] GhostDriver - Main - running on port 25519
+[INFO  - 2018-11-05T13:46:07.914Z] Session [25bbc640-e101-11e8-95ad-cbdc4d76993e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:46:07.914Z] Session [25bbc640-e101-11e8-95ad-cbdc4d76993e] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:46:07.914Z] Session [25bbc640-e101-11e8-95ad-cbdc4d76993e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:46:07.914Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 25bbc640-e101-11e8-95ad-cbdc4d76993e
+[ERROR - 2018-11-05T13:46:09.577Z] Session [25bbc640-e101-11e8-95ad-cbdc4d76993e] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:46:09.577Z] Session [25bbc640-e101-11e8-95ad-cbdc4d76993e] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:46:17.493Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:46:22.364Z] GhostDriver - Main - running on port 25106
+[INFO  - 2018-11-05T13:46:22.520Z] Session [2e707920-e101-11e8-a412-c185b085db9c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:46:22.520Z] Session [2e707920-e101-11e8-a412-c185b085db9c] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:46:22.520Z] Session [2e707920-e101-11e8-a412-c185b085db9c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:46:22.520Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2e707920-e101-11e8-a412-c185b085db9c
+[ERROR - 2018-11-05T13:46:24.171Z] Session [2e707920-e101-11e8-a412-c185b085db9c] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:46:24.171Z] Session [2e707920-e101-11e8-a412-c185b085db9c] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:46:30.659Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:46:35.130Z] GhostDriver - Main - running on port 42518
+[INFO  - 2018-11-05T13:46:35.693Z] Session [364a8370-e101-11e8-ad81-879d1bb52b5c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:46:35.693Z] Session [364a8370-e101-11e8-ad81-879d1bb52b5c] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:46:35.693Z] Session [364a8370-e101-11e8-ad81-879d1bb52b5c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:46:35.693Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 364a8370-e101-11e8-ad81-879d1bb52b5c
+[ERROR - 2018-11-05T13:46:37.166Z] Session [364a8370-e101-11e8-ad81-879d1bb52b5c] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:46:37.166Z] Session [364a8370-e101-11e8-ad81-879d1bb52b5c] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:46:44.197Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:46:49.057Z] GhostDriver - Main - running on port 25974
+[INFO  - 2018-11-05T13:46:49.227Z] Session [3e5ba350-e101-11e8-9320-a3c58f82d666] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:46:49.227Z] Session [3e5ba350-e101-11e8-9320-a3c58f82d666] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:46:49.227Z] Session [3e5ba350-e101-11e8-9320-a3c58f82d666] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:46:49.227Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3e5ba350-e101-11e8-9320-a3c58f82d666
+[ERROR - 2018-11-05T13:46:50.756Z] Session [3e5ba350-e101-11e8-9320-a3c58f82d666] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:46:50.757Z] Session [3e5ba350-e101-11e8-9320-a3c58f82d666] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:46:57.258Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:47:01.948Z] GhostDriver - Main - running on port 33308
+[INFO  - 2018-11-05T13:47:02.291Z] Session [4624e4c0-e101-11e8-af1c-990e9b75ef54] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:47:02.291Z] Session [4624e4c0-e101-11e8-af1c-990e9b75ef54] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:47:02.291Z] Session [4624e4c0-e101-11e8-af1c-990e9b75ef54] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:47:02.291Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4624e4c0-e101-11e8-af1c-990e9b75ef54
+[ERROR - 2018-11-05T13:47:03.882Z] Session [4624e4c0-e101-11e8-af1c-990e9b75ef54] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:47:03.883Z] Session [4624e4c0-e101-11e8-af1c-990e9b75ef54] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:47:10.733Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:47:15.386Z] GhostDriver - Main - running on port 22250
+[INFO  - 2018-11-05T13:47:15.771Z] Session [4e2e1560-e101-11e8-812b-416fabdc82db] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:47:15.771Z] Session [4e2e1560-e101-11e8-812b-416fabdc82db] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:47:15.771Z] Session [4e2e1560-e101-11e8-812b-416fabdc82db] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:47:15.772Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4e2e1560-e101-11e8-812b-416fabdc82db
+[ERROR - 2018-11-05T13:47:22.304Z] Session [4e2e1560-e101-11e8-812b-416fabdc82db] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:47:22.304Z] Session [4e2e1560-e101-11e8-812b-416fabdc82db] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:47:27.831Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:47:32.282Z] GhostDriver - Main - running on port 32437
+[INFO  - 2018-11-05T13:47:32.887Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:47:32.887Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:47:32.887Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:47:32.887Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5861a010-e101-11e8-a102-f3f1f43a2ec0
+[ERROR - 2018-11-05T13:47:35.213Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:47:35.214Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[ERROR - 2018-11-05T13:47:38.635Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.onError - msg: Rollbar: Error while reading your configuration's ignoredMessages option. Removing custom ignoredMessages.
+[ERROR - 2018-11-05T13:47:38.635Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.onError - stack:
+  apply (:0)
+[ERROR - 2018-11-05T13:47:42.792Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:47:42.792Z] Session [5861a010-e101-11e8-a102-f3f1f43a2ec0] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T13:47:47.874Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T13:48:45.687Z] GhostDriver - Main - running on port 17150
+[INFO  - 2018-11-05T13:48:46.583Z] Session [844ee520-e101-11e8-ad7f-536625f12b58] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T13:48:46.583Z] Session [844ee520-e101-11e8-ad7f-536625f12b58] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T13:48:46.583Z] Session [844ee520-e101-11e8-ad7f-536625f12b58] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T13:48:46.583Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 844ee520-e101-11e8-ad7f-536625f12b58
+[ERROR - 2018-11-05T13:48:48.172Z] Session [844ee520-e101-11e8-ad7f-536625f12b58] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T13:48:48.172Z] Session [844ee520-e101-11e8-ad7f-536625f12b58] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:09:51.627Z] GhostDriver - Main - running on port 17842
+[INFO  - 2018-11-05T15:09:52.507Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:09:52.507Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:09:52.507Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:09:52.507Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d89ff960-e10c-11e8-b7e4-81708b50b596
+[ERROR - 2018-11-05T15:09:54.497Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:09:54.497Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[ERROR - 2018-11-05T15:09:57.101Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.onError - msg: Rollbar: Error while reading your configuration's ignoredMessages option. Removing custom ignoredMessages.
+[ERROR - 2018-11-05T15:09:57.101Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.onError - stack:
+  apply (:0)
+[ERROR - 2018-11-05T15:10:00.566Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:10:00.566Z] Session [d89ff960-e10c-11e8-b7e4-81708b50b596] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:10:06.477Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:10:10.297Z] GhostDriver - Main - running on port 16506
+[INFO  - 2018-11-05T15:10:10.719Z] Session [e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:10:10.719Z] Session [e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:10:10.719Z] Session [e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:10:10.719Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b
+[ERROR - 2018-11-05T15:10:12.140Z] Session [e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:10:12.140Z] Session [e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[ERROR - 2018-11-05T15:10:19.446Z] Session [e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:10:19.446Z] Session [e37ae7a0-e10c-11e8-9fa9-21c686ed5d7b] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:10:28.084Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:10:32.489Z] GhostDriver - Main - running on port 26289
+[INFO  - 2018-11-05T15:10:33.123Z] Session [f0d52dc0-e10c-11e8-83aa-43633a0e4c08] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:10:33.123Z] Session [f0d52dc0-e10c-11e8-83aa-43633a0e4c08] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:10:33.123Z] Session [f0d52dc0-e10c-11e8-83aa-43633a0e4c08] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:10:33.123Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f0d52dc0-e10c-11e8-83aa-43633a0e4c08
+[ERROR - 2018-11-05T15:10:36.052Z] Session [f0d52dc0-e10c-11e8-83aa-43633a0e4c08] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:10:36.052Z] Session [f0d52dc0-e10c-11e8-83aa-43633a0e4c08] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:10:43.305Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:10:47.814Z] GhostDriver - Main - running on port 23575
+[INFO  - 2018-11-05T15:10:48.356Z] Session [f9e9b3e0-e10c-11e8-b284-4f36359a50a6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:10:48.356Z] Session [f9e9b3e0-e10c-11e8-b284-4f36359a50a6] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:10:48.357Z] Session [f9e9b3e0-e10c-11e8-b284-4f36359a50a6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:10:48.358Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f9e9b3e0-e10c-11e8-b284-4f36359a50a6
+[ERROR - 2018-11-05T15:10:49.938Z] Session [f9e9b3e0-e10c-11e8-b284-4f36359a50a6] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:10:49.938Z] Session [f9e9b3e0-e10c-11e8-b284-4f36359a50a6] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:10:58.261Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:11:02.818Z] GhostDriver - Main - running on port 4142
+[INFO  - 2018-11-05T15:11:03.307Z] Session [02d33260-e10d-11e8-b6b8-750f0e0766a3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:11:03.307Z] Session [02d33260-e10d-11e8-b6b8-750f0e0766a3] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:11:03.307Z] Session [02d33260-e10d-11e8-b6b8-750f0e0766a3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:11:03.307Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 02d33260-e10d-11e8-b6b8-750f0e0766a3
+[ERROR - 2018-11-05T15:11:05.533Z] Session [02d33260-e10d-11e8-b6b8-750f0e0766a3] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:11:05.533Z] Session [02d33260-e10d-11e8-b6b8-750f0e0766a3] - page.onError - stack:
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  b (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  b (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  b (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  b (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+  (anonymous function) (https://connect.facebook.net/signals/config/699976036705822?v=next&r=canary:21)
+[INFO  - 2018-11-05T15:11:11.301Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:11:15.394Z] GhostDriver - Main - running on port 6254
+[INFO  - 2018-11-05T15:11:15.857Z] Session [0a4d9080-e10d-11e8-862e-a5688abf15da] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:11:15.857Z] Session [0a4d9080-e10d-11e8-862e-a5688abf15da] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:11:15.858Z] Session [0a4d9080-e10d-11e8-862e-a5688abf15da] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:11:15.858Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0a4d9080-e10d-11e8-862e-a5688abf15da
+[ERROR - 2018-11-05T15:11:18.611Z] Session [0a4d9080-e10d-11e8-862e-a5688abf15da] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:11:18.611Z] Session [0a4d9080-e10d-11e8-862e-a5688abf15da] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:11:24.442Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:11:28.691Z] GhostDriver - Main - running on port 28954
+[INFO  - 2018-11-05T15:11:28.989Z] Session [1221a760-e10d-11e8-b5ff-2354d94e70c3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:11:28.989Z] Session [1221a760-e10d-11e8-b5ff-2354d94e70c3] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:11:28.989Z] Session [1221a760-e10d-11e8-b5ff-2354d94e70c3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:11:28.989Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1221a760-e10d-11e8-b5ff-2354d94e70c3
+[ERROR - 2018-11-05T15:11:30.589Z] Session [1221a760-e10d-11e8-b5ff-2354d94e70c3] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:11:30.590Z] Session [1221a760-e10d-11e8-b5ff-2354d94e70c3] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:11:37.139Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:11:41.981Z] GhostDriver - Main - running on port 38073
+[INFO  - 2018-11-05T15:11:42.525Z] Session [1a333c70-e10d-11e8-b889-a17a949910bd] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:11:42.525Z] Session [1a333c70-e10d-11e8-b889-a17a949910bd] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:11:42.525Z] Session [1a333c70-e10d-11e8-b889-a17a949910bd] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:11:42.525Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1a333c70-e10d-11e8-b889-a17a949910bd
+[ERROR - 2018-11-05T15:11:45.092Z] Session [1a333c70-e10d-11e8-b889-a17a949910bd] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:11:45.092Z] Session [1a333c70-e10d-11e8-b889-a17a949910bd] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:11:52.920Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:11:58.070Z] GhostDriver - Main - running on port 35420
+[INFO  - 2018-11-05T15:11:58.295Z] Session [23993df0-e10d-11e8-9ef6-0f5955b72d95] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:11:58.295Z] Session [23993df0-e10d-11e8-9ef6-0f5955b72d95] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:11:58.295Z] Session [23993df0-e10d-11e8-9ef6-0f5955b72d95] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:11:58.296Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 23993df0-e10d-11e8-9ef6-0f5955b72d95
+[ERROR - 2018-11-05T15:12:00.847Z] Session [23993df0-e10d-11e8-9ef6-0f5955b72d95] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:12:00.848Z] Session [23993df0-e10d-11e8-9ef6-0f5955b72d95] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:12:08.332Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:12:13.284Z] GhostDriver - Main - running on port 29922
+[INFO  - 2018-11-05T15:12:13.780Z] Session [2cd485f0-e10d-11e8-a0e9-c1416a49cf63] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:12:13.781Z] Session [2cd485f0-e10d-11e8-a0e9-c1416a49cf63] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:12:13.781Z] Session [2cd485f0-e10d-11e8-a0e9-c1416a49cf63] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:12:13.781Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2cd485f0-e10d-11e8-a0e9-c1416a49cf63
+[ERROR - 2018-11-05T15:12:21.351Z] Session [2cd485f0-e10d-11e8-a0e9-c1416a49cf63] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:12:21.351Z] Session [2cd485f0-e10d-11e8-a0e9-c1416a49cf63] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:12:27.224Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:12:31.936Z] GhostDriver - Main - running on port 8135
+[INFO  - 2018-11-05T15:12:32.601Z] Session [380c3a30-e10d-11e8-aa71-4934eb784ef5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:12:32.601Z] Session [380c3a30-e10d-11e8-aa71-4934eb784ef5] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:12:32.601Z] Session [380c3a30-e10d-11e8-aa71-4934eb784ef5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:12:32.602Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 380c3a30-e10d-11e8-aa71-4934eb784ef5
+[ERROR - 2018-11-05T15:12:34.231Z] Session [380c3a30-e10d-11e8-aa71-4934eb784ef5] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:12:34.231Z] Session [380c3a30-e10d-11e8-aa71-4934eb784ef5] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[ERROR - 2018-11-05T15:12:41.851Z] Session [380c3a30-e10d-11e8-aa71-4934eb784ef5] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:12:41.851Z] Session [380c3a30-e10d-11e8-aa71-4934eb784ef5] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:12:48.775Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-05T15:12:53.461Z] GhostDriver - Main - running on port 10905
+[INFO  - 2018-11-05T15:12:53.601Z] Session [44906ba0-e10d-11e8-b774-85abe8b0af77] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-05T15:12:53.601Z] Session [44906ba0-e10d-11e8-b774-85abe8b0af77] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T15:12:53.601Z] Session [44906ba0-e10d-11e8-b774-85abe8b0af77] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-05T15:12:53.601Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 44906ba0-e10d-11e8-b774-85abe8b0af77
+[ERROR - 2018-11-05T15:13:00.391Z] Session [44906ba0-e10d-11e8-b774-85abe8b0af77] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-05T15:13:00.391Z] Session [44906ba0-e10d-11e8-b774-85abe8b0af77] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-05T15:13:06.151Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T08:45:03.590Z] GhostDriver - Main - running on port 48377
+[INFO  - 2018-11-07T08:45:04.367Z] Session [6bd8bd90-e269-11e8-a7eb-81dbd1cb8dfb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T08:45:04.367Z] Session [6bd8bd90-e269-11e8-a7eb-81dbd1cb8dfb] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T08:45:04.367Z] Session [6bd8bd90-e269-11e8-a7eb-81dbd1cb8dfb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T08:45:04.367Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6bd8bd90-e269-11e8-a7eb-81dbd1cb8dfb
+[INFO  - 2018-11-07T08:45:08.829Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T08:45:13.246Z] GhostDriver - Main - running on port 25476
+[INFO  - 2018-11-07T08:45:13.964Z] Session [7190d240-e269-11e8-97f6-e304e209b90a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T08:45:13.965Z] Session [7190d240-e269-11e8-97f6-e304e209b90a] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T08:45:13.965Z] Session [7190d240-e269-11e8-97f6-e304e209b90a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T08:45:13.965Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7190d240-e269-11e8-97f6-e304e209b90a
+[INFO  - 2018-11-07T08:45:16.167Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T08:50:51.981Z] GhostDriver - Main - running on port 24588
+[INFO  - 2018-11-07T08:50:52.895Z] Session [3b95e490-e26a-11e8-ac3f-2747d9352938] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T08:50:52.895Z] Session [3b95e490-e26a-11e8-ac3f-2747d9352938] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T08:50:52.895Z] Session [3b95e490-e26a-11e8-ac3f-2747d9352938] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T08:50:52.895Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3b95e490-e26a-11e8-ac3f-2747d9352938
+[ERROR - 2018-11-07T08:50:59.338Z] Session [3b95e490-e26a-11e8-ac3f-2747d9352938] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T08:50:59.339Z] Session [3b95e490-e26a-11e8-ac3f-2747d9352938] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T08:51:05.002Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T08:51:09.001Z] GhostDriver - Main - running on port 34036
+[INFO  - 2018-11-07T08:51:09.630Z] Session [458f7380-e26a-11e8-80fd-770911a5bc4f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T08:51:09.630Z] Session [458f7380-e26a-11e8-80fd-770911a5bc4f] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T08:51:09.630Z] Session [458f7380-e26a-11e8-80fd-770911a5bc4f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T08:51:09.630Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 458f7380-e26a-11e8-80fd-770911a5bc4f
+[ERROR - 2018-11-07T08:51:15.812Z] Session [458f7380-e26a-11e8-80fd-770911a5bc4f] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T08:51:15.812Z] Session [458f7380-e26a-11e8-80fd-770911a5bc4f] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T08:51:21.167Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T10:10:12.108Z] GhostDriver - Main - running on port 15136
+[INFO  - 2018-11-07T10:10:12.855Z] Session [50be4d20-e275-11e8-84d2-4d3043910c7f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T10:10:12.855Z] Session [50be4d20-e275-11e8-84d2-4d3043910c7f] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T10:10:12.856Z] Session [50be4d20-e275-11e8-84d2-4d3043910c7f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T10:10:12.856Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 50be4d20-e275-11e8-84d2-4d3043910c7f
+[ERROR - 2018-11-07T10:10:17.062Z] Session [50be4d20-e275-11e8-84d2-4d3043910c7f] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T10:10:17.063Z] Session [50be4d20-e275-11e8-84d2-4d3043910c7f] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T10:10:24.097Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T10:10:28.111Z] GhostDriver - Main - running on port 30092
+[INFO  - 2018-11-07T10:10:28.763Z] Session [5a398450-e275-11e8-a4bc-0bcf7926b56b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T10:10:28.764Z] Session [5a398450-e275-11e8-a4bc-0bcf7926b56b] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T10:10:28.764Z] Session [5a398450-e275-11e8-a4bc-0bcf7926b56b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T10:10:28.764Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5a398450-e275-11e8-a4bc-0bcf7926b56b
+[ERROR - 2018-11-07T10:10:36.557Z] Session [5a398450-e275-11e8-a4bc-0bcf7926b56b] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T10:10:36.557Z] Session [5a398450-e275-11e8-a4bc-0bcf7926b56b] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T10:10:42.293Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T10:22:28.638Z] GhostDriver - Main - running on port 16970
+[INFO  - 2018-11-07T10:22:29.632Z] Session [07e58cb0-e277-11e8-88db-3766f3264c65] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T10:22:29.633Z] Session [07e58cb0-e277-11e8-88db-3766f3264c65] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T10:22:29.633Z] Session [07e58cb0-e277-11e8-88db-3766f3264c65] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T10:22:29.633Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 07e58cb0-e277-11e8-88db-3766f3264c65
+[ERROR - 2018-11-07T10:22:36.305Z] Session [07e58cb0-e277-11e8-88db-3766f3264c65] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T10:22:36.306Z] Session [07e58cb0-e277-11e8-88db-3766f3264c65] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T10:22:41.744Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T10:22:47.011Z] GhostDriver - Main - running on port 32654
+[INFO  - 2018-11-07T10:22:47.199Z] Session [125de890-e277-11e8-884b-a5c9e4bb5cfe] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T10:22:47.199Z] Session [125de890-e277-11e8-884b-a5c9e4bb5cfe] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T10:22:47.199Z] Session [125de890-e277-11e8-884b-a5c9e4bb5cfe] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T10:22:47.200Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 125de890-e277-11e8-884b-a5c9e4bb5cfe
+[ERROR - 2018-11-07T10:22:55.313Z] Session [125de890-e277-11e8-884b-a5c9e4bb5cfe] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T10:22:55.313Z] Session [125de890-e277-11e8-884b-a5c9e4bb5cfe] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T10:23:00.971Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T12:28:10.570Z] GhostDriver - Main - running on port 18599
+[INFO  - 2018-11-07T12:28:11.361Z] Session [971e11c0-e288-11e8-964b-5764f10489cd] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T12:28:11.361Z] Session [971e11c0-e288-11e8-964b-5764f10489cd] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T12:28:11.361Z] Session [971e11c0-e288-11e8-964b-5764f10489cd] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T12:28:11.362Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 971e11c0-e288-11e8-964b-5764f10489cd
+[ERROR - 2018-11-07T12:28:18.391Z] Session [971e11c0-e288-11e8-964b-5764f10489cd] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T12:28:18.392Z] Session [971e11c0-e288-11e8-964b-5764f10489cd] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T12:28:23.840Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-11-07T12:28:28.348Z] GhostDriver - Main - running on port 39379
+[INFO  - 2018-11-07T12:28:28.977Z] Session [a19de7b0-e288-11e8-ad6f-87e951da2e93] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-07T12:28:28.977Z] Session [a19de7b0-e288-11e8-ad6f-87e951da2e93] - page.customHeaders:  - {}
+[INFO  - 2018-11-07T12:28:28.977Z] Session [a19de7b0-e288-11e8-ad6f-87e951da2e93] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-07T12:28:28.977Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a19de7b0-e288-11e8-ad6f-87e951da2e93
+[ERROR - 2018-11-07T12:28:35.862Z] Session [a19de7b0-e288-11e8-ad6f-87e951da2e93] - page.onError - msg: ReferenceError: Can't find variable: Set
+[ERROR - 2018-11-07T12:28:35.862Z] Session [a19de7b0-e288-11e8-ad6f-87e951da2e93] - page.onError - stack:
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  b (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  getFbeventsModules (http://connect.facebook.net/en_US/fbevents.js:24)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+  (anonymous function) (http://connect.facebook.net/en_US/fbevents.js:25)
+[INFO  - 2018-11-07T12:28:41.764Z] ShutdownReqHand - _handle - About to shutdown
