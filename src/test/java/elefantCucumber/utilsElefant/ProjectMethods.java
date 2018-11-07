@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProjectMethods {
 
-    TestContext wbs = new TestContext();
+    TestContext wbs = TestContext.getTestContext();
 
     //  *******  Constructor  ***********
     public ProjectMethods() {
@@ -106,7 +106,10 @@ public class ProjectMethods {
         return error;
     }
 
-    public void getScreenshot(Scenario scenario) {
+    public void getScreenshot() {
+
+        Scenario scenario = wbs.getScenario();
+
         try {
 
             String base64Screenshot = ((TakesScreenshot) wbs.getDriver()).getScreenshotAs(OutputType.BASE64);

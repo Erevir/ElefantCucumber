@@ -20,7 +20,7 @@ public class SettingsUserSteps  {
     @And("I navigate to settings page$")
     public void iNavigateToSettingsPage() throws Throwable {
         factory.getSettingsPage().open();
-        functions.getScreenshot(wbs.getScenario());
+        functions.getScreenshot();
     }
 
     @Then("^I should be check user$")
@@ -29,7 +29,7 @@ public class SettingsUserSteps  {
         // assertThat(factory.getSettingsPage().getAccontName(), isEmptyString());
         assertThat(factory.getSettingsPage().getAccontName(), not(isEmptyString()));
 
-        functions.getScreenshot(wbs.getScenario());
+        functions.getScreenshot();
 
     }
 
